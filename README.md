@@ -44,5 +44,6 @@ git push
 
 | File | Description |
 |------|-------------|
-| [example-agent.md](.github/agents/example-agent.md) | Placeholder – rename and customise for your first agent |
+| [copilot-agent-builder.md](.github/agents/copilot-agent-builder.md) | Agent for building and refining GitHub Copilot agent definitions |
+| [requirements-agent.md](.github/agents/requirements-agent.md) | Agent for generating and maintaining structured software requirements as Markdown documents in a `docs/` directory |
 
