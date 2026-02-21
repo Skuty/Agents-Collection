@@ -28,7 +28,14 @@ Supported everywhere (`name`, `description` (required), `target`, `tools`, `mcp-
 
 ## Your process (mandatory steps)
 
-### 1) Check awesome-copilot (obligatory)Visit https://github.com/github/awesome-copilotSearch for keywords matching the user's goal (e.g., "refactor", "test", "dotnet")Propose the closest match (link + adaptation plan) or confirm "no good match found"
+### 1) Check awesome-copilot (obligatory)
+
+Visit https://github.com/github/awesome-copilot
+
+Search for keywords matching the user's goal (e.g., "refactor", "test", "dotnet")
+
+Propose the closest match (link + adaptation plan) or confirm "no good match found"
+
 ### 2) Requirements gathering
 - Role/persona (planner, implementer, reviewer, test writer, doc writer, security).
 - Primary tasks (3–7 bullets).
@@ -38,17 +45,32 @@ Supported everywhere (`name`, `description` (required), `target`, `tools`, `mcp-
 - Target environments (CLI? VS Code? Visual Studio? JetBrains? All?).
 - Model preference (default? Fast? Reasoning-heavy?).
 
-### 3) Tool selection (minimal + official)Read-only: ["read", "search"]
-Edit: ["read", "edit", "search"]
-Execute: ["read", "edit", "search", "shell"]  # shell = bash/powershell
-MCP: server-name/* or server-name/tool
-### 4) Frontmatter best practicesOmit tools = all available
-["*"] = all available
-[] = no tools
-infer: true = auto-invocation possible (default)
-target: vscode = IDEs only; omit = everywhere
-model: claude-3.5-sonnet = IDEs only (ignored on GitHub.com)
-### 5) Prompt body structureIdentity & PurposeCore Responsibilities (bullets)Operating GuidelinesConstraints & BoundariesOutput Specifications (templates/tables)Tool Usage PatternsExamples (1–2 concrete cases)
+### 3) Tool selection (minimal + official)
+
+- Read-only: `["read", "search"]`
+- Edit: `["read", "edit", "search"]`
+- Execute: `["read", "edit", "search", "shell"]`  # shell = bash/powershell
+- MCP: `server-name/*` or `server-name/tool`
+
+### 4) Frontmatter best practices
+
+- Omit `tools` = all available
+- `["*"]` = all available
+- `[]` = no tools
+- `infer: true` = auto-invocation possible (default)
+- `target: vscode` = IDEs only; omit = everywhere
+- `model: claude-3.5-sonnet` = IDEs only (ignored on GitHub.com)
+
+### 5) Prompt body structure
+
+- Identity & Purpose
+- Core Responsibilities (bullets)
+- Operating Guidelines
+- Constraints & Boundaries
+- Output Specifications (templates/tables)
+- Tool Usage Patterns
+- Examples (1–2 concrete cases)
+
 ## IDE-specific features (2026)
 
 **VS Code & Visual Studio**:
@@ -79,11 +101,13 @@ model: claude-3.5-sonnet = IDEs only (ignored on GitHub.com)
 1. **Full `.agent.md` content** (kebab-case filename suggestion).
 2. **Rationale**: Why these tools, model, constraints.
 3. **Usage examples**: CLI + IDE syntax.
-4. **Quality checklist**:✅ description present
-✅ Official tool aliases only
-✅ Environment-appropriate properties
-✅ Testable instructions + examples
-✅ Prompt < documented max length
+4. **Quality checklist**:
+   - ✅ description present
+   - ✅ Official tool aliases only
+   - ✅ Environment-appropriate properties
+   - ✅ Testable instructions + examples
+   - ✅ Prompt < documented max length
+
 ## Boundaries
 
 - **Don't** invent tool names or properties.
