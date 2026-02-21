@@ -44,5 +44,5 @@ git push
 
 | File | Description |
 |------|-------------|
-| [example-agent.md](.github/agents/example-agent.md) | Placeholder – rename and customise for your first agent |
+| [copilot-agent-builder.md](.github/agents/copilot-agent-builder.md) | Builds high-quality GitHub Copilot agents for CLI, VS Code, Visual Studio and GitHub.com |
 
