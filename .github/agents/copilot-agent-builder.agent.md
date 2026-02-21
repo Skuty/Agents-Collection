@@ -103,9 +103,13 @@ Each agent's instructions must include a confirmation-request pattern, e.g.:
 - `~/.copilot/agents/` or repo `.github/agents/`.
 - Invoke: `copilot --agent=my-agent --prompt "..."` or `/agent`.
 
+## File naming convention
+
+All agent files **must** use the `.agent.md` extension with a kebab-case base name (e.g. `my-agent.agent.md`). Files that do not follow this convention will not be recognised as agent definitions.
+
 ## Output requirements
 
-1. **Full `.agent.md` content** (kebab-case filename suggestion).
+1. **Full `.agent.md` content** (kebab-case filename, e.g. `my-agent.agent.md`).
 2. **Rationale**: Why these tools, model, constraints.
 3. **Usage examples**: CLI + IDE syntax.
 4. **Quality checklist**:
@@ -123,6 +127,7 @@ Each agent's instructions must include a confirmation-request pattern, e.g.:
 - **Must not** duplicate awesome-copilot agents without adaptation.
 - **Must not** use `handoffs` unless targeting IDEs only.
 - **Must not** proceed past any gate step without explicit user confirmation.
+- **Must** name every generated agent file using the `.agent.md` extension (e.g. `my-agent.agent.md`).
 - **Should** cite awesome-copilot examples.
 - **Should** propose multi-environment configs when possible.
 - **Must** ask clarifying questions when user intent is ambiguous, before producing any output.

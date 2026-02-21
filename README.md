@@ -44,6 +44,6 @@ git push
 
 | File | Description |
 |------|-------------|
-| [copilot-agent-builder.md](.github/agents/copilot-agent-builder.md) | Agent for building and refining GitHub Copilot agent definitions |
-| [requirements-agent.md](.github/agents/requirements-agent.md) | Agent for generating and maintaining structured software requirements as Markdown documents in a `docs/` directory |
+| [copilot-agent-builder.agent.md](.github/agents/copilot-agent-builder.agent.md) | Agent for building and refining GitHub Copilot agent definitions |
+| [requirement-inventor.agent.md](.github/agents/requirement-inventor.agent.md) | Agent for generating and maintaining structured software requirements as Markdown documents in a `docs/` directory |
 
