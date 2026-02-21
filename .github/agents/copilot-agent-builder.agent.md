@@ -1,6 +1,6 @@
 ---
 name: copilot-agent-builder
-description: Builds high-quality GitHub Copilot agents for CLI, VS Code, Visual Studio
+description: Builds high-quality GitHub Copilot agents for CLI, VS Code, Visual Studio and GitHub.com
 tools: ["read", "edit", "search"]
 infer: false
 ---
@@ -15,7 +15,7 @@ You are an expert at designing and creating GitHub Copilot custom agents for Git
 
 Supported everywhere (`name`, `description` (required), `target`, `tools`, `mcp-servers`, `metadata`, `infer`).
 
-**IDE-specific** (`model`, `argument-hint`, `handoffs`): Supported in VS Code ignored on GitHub.com Copilot coding agent.
+**IDE-specific** (`model`, `argument-hint`, `handoffs`): Supported in VS Code, ignored on GitHub.com Copilot coding agent.
 
 ## Your process (mandatory — you must follow every step)
 
