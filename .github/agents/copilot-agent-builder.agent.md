@@ -92,6 +92,9 @@ Each agent's instructions must include a confirmation-request pattern, e.g.:
 > "If you are unsure about the user's intent, you must ask a clarifying question before proceeding."
 > "Before making any changes, you must present a plan and ask for confirmation (unless the task is a question, follow-up, or quick unambiguous request)."
 
+### Agent file name
+Agent definitione file name must be named in following template sample-name.agent.md. There have to be sufix .agent.md
+
 ## IDE-specific features (2026)
 
 **VS Code & Visual Studio**:
