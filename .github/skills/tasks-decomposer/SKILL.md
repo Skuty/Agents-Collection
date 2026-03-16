@@ -1,5 +1,5 @@
 ---
-name: task-splitter
+name: tasks-decomposer
 description: 'Conditionally splits tasks into Phase 1 (Business Analysis discovery) or Phase 2 (Vertical Slicing development) based on the level of detail in the prompt.'
 ---
 
@@ -20,8 +20,8 @@ Read the user's prompt and evaluate the level of detail:
 *Triggered by Condition A.*
 Generate subtasks meant *for the Business Analyst to research*. 
 - Search for the absolute simplest action the user can do and create a task to investigate it.
-- Create tasks to interview stakeholders, define data fields, or map out edge cases.
-- **Stop and ask:** Conclude your response by asking the user to provide the answers to these analysis tasks before you generate development tickets.
+- Create tasks to interview stakeholders, events within process, establish rules that have to be checked within business process define data fields, or map out edge cases.
+- **Stop and ask:** Conclude your response by asking the user to provide the answers to these analysis tasks before you generate development tickets and ask if more advices is needed.
 
 ### Phase 2: Synthesis & Vertical Slicing (Development)
 *Triggered by Condition B.*
