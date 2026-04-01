@@ -12,7 +12,7 @@
       "name": "something-to-markdown",
       "description": "Supplies capabilities of changing objects to Markdown format",
       "version": "1.0.0",
-      "source": "./plugins/something-to-markdown"
+      "source": "./plugin/something-to-markdown"
     }
   ]
 }
