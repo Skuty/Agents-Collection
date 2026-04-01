@@ -1,0 +1,11 @@
+{
+  "servers": {
+    "markitdown": {
+      "command": "python",
+      "args": ["-m", "markitdown.mcp"],
+      "env": {
+        "PYTHONPATH": "." 
+      }
+    }
+  }
+}

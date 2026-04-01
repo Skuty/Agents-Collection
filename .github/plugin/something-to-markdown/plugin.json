@@ -1,0 +1,7 @@
+{
+  "name": "something-to-markdown",
+  "version": "1.0.0",
+  "agents": "agents/",
+  "skills": ["skills/"],
+  "mcpServers": "mcp.json"
+}
